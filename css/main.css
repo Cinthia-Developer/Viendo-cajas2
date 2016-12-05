@@ -1,4 +1,4 @@
-*{outline: 1px solid red;}
+
 /*-----------------------------header-----------------------------*/
 header{
     background-image: url(../img/header.jpg);
@@ -20,6 +20,7 @@ header .boton1{
     padding: 10px 5px;
 }
 header nav ul li:hover{background-color: #f05f40;}
+.navbar-toggle{background-color:#f05f40;}
 /*-----------------------------sobremi-----------------------------*/
 #sobremi{
     background-color: #f05f40;
@@ -56,13 +57,13 @@ hr{
 .cuadro-final{width: 60%; margin: auto;}
 #contactame hr{background-color:#f05f40; }
 #contactame span{font-size: 35px;}
-a{color:#f05f40; }
+#contactame a{color:#f05f40; }
 /*-----------------------------@media-----------------------------*/
+@media screen and (min-width:768px) and (max-width:992px){#proyectos img{width: 100%;}}
 @media screen and (max-width:768px){
     .yo{width: 100%;}
     .iconos{width: 100%;}
     header h1{font-size: 30px;}
-    a {color:#f05f40;}
     .cuadro-final{width: 100%;}
     .plomo{width: 100%;}
     header .navbar-inverse{background-color: white;}
