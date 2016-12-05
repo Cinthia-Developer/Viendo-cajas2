@@ -5,6 +5,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    position: fixed;
     color: white;
 }
 .frase{ margin: 150px  auto;}
@@ -18,6 +19,7 @@ header .boton1{
     margin: auto;
     padding: 10px 5px;
 }
+header a{color: white;}
 /*-----------------------------sobremi-----------------------------*/
 #sobremi{
     background-color: #f05f40;
@@ -45,16 +47,21 @@ hr{
     text-align: center; 
     margin: auto;}
 /*-----------------------------proyectos-----------------------------*/
-
+#proyectos{background-color: #222222;}
+.sinpadding [class*="col-m"]{ padding: 0;}
+.plomo{width: 60%; margin: 50px auto; text-align: center; color: white;}
+.boton2{background-color: white; color: black; border-radius: 10px; padding: 5px; width: 150px; margin: auto;}
 /*-----------------------------contactame-----------------------------*/
 #contactame{ text-align: center;}
 .cuadro-final{width: 60%; margin: auto;}
 #contactame hr{background-color:#f05f40; }
 #contactame span{font-size: 35px;}
+a{color:#f05f40; }
 /*-----------------------------@media-----------------------------*/
 @media screen and (max-width:768px){
     .yo{width: 100%;}
     .iconos{width: 100%;}
     header h1{font-size: 30px;}
     .cuadro-final{width: 100%;}
+    .plomo{width: 100%;}
 }
