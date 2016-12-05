@@ -5,9 +5,9 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    position: fixed;
     color: white;
 }
+header .navbar-inverse{background-color: rgba(0, 0, 0, 0.28);}
 .frase{ margin: 150px  auto;}
 header h1{font-size: 48px;}
 header hr {background-color:#f05f40;}
@@ -19,7 +19,7 @@ header .boton1{
     margin: auto;
     padding: 10px 5px;
 }
-header a{color: white;}
+header nav ul li:hover{background-color: #f05f40;}
 /*-----------------------------sobremi-----------------------------*/
 #sobremi{
     background-color: #f05f40;
@@ -62,6 +62,8 @@ a{color:#f05f40; }
     .yo{width: 100%;}
     .iconos{width: 100%;}
     header h1{font-size: 30px;}
+    a {color:#f05f40;}
     .cuadro-final{width: 100%;}
     .plomo{width: 100%;}
+    header .navbar-inverse{background-color: white;}
 }
