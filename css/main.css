@@ -1,1 +1,53 @@
-/* Tu CSS va aqui */
+*{outline: 1px solid red;}
+/*-----------------------------header-----------------------------*/
+header{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.frase{ margin: 150px  auto;}
+header h1{font-size: 48px;}
+header hr {background-color:#f05f40;}
+header p{color:#ebd5d7;}
+header .boton1{
+    background-color: #f05f40;
+    border-radius: 30px; 
+    width: 200px;
+    margin: auto;
+    padding: 10px 5px;
+}
+/*-----------------------------sobremi-----------------------------*/
+#sobremi{
+    background-color: #f05f40;
+    color: #fef6f6;
+    text-align: center;
+}
+.yo{
+    width: 60%;
+    margin: 70px auto;
+}
+hr{
+    width: 50px; 
+    height: 3px;
+}
+#servicios span{
+    color:#f05f40; 
+    font-size: 50px;
+}
+/*-----------------------------servicios-----------------------------*/
+#servicios hr{
+    background-color:#f05f40;  
+}
+.iconos{
+    width: 90%;
+    text-align: center; 
+    margin: auto;}
+/*-----------------------------proyectos-----------------------------*/
+/*-----------------------------@media-----------------------------*/
+@media screen and (max-width:768px){
+    .yo{width: 100%;}
+    .iconos{width: 100%;}
+    header h1{font-size: 30px;}
+}

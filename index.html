@@ -3,9 +3,115 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portafolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="icomoon/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+<!-----------------------------------------------------header---------------------------------------------------->
+    <header>
+        <div class="container">
+            <nav class="navbar" role="navigation">
+                        <!-- El logotipo y el icono que despliega el menú se agrupan
+                        para mostrarlos mejor en los dispositivos móviles -->
+                        <div class="container">
+                            <div class=" navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                    <span class="sr-only">Desplegar navegación</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#"><img  class="img-responsive size-logo" ><b>Code Girls</b> </a>
+                            </div><!--cierre de nabvar-header-->
+                            
+                        <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+                        otro elemento que se pueda ocultar al minimizar la barra -->
+                            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#hero">Inicio</a></li>
+                                    <li><a href="#documental">Documental</a></li>
+                                    <li><a href="#hackathon">Hackathon</a></li>
+                                    <li><a href="#formulario">Contacto</a></li>
+                                </ul>
+                            </div><!--cierre de class collapse-->
+                        </div><!--cierre de container-->
+            </nav>
+            
+            <div class="frase">
+                <h1><b>HOLA, MI NOMBRE ES CINTHIA <br> SOY CODER DE LABORATORIA</b></h1>
+                <hr>
+                <p>Estas interezado en desarrollar un sitio web o necesitas una frontend developer, yo te puedo ayudar <br> con los diferentes servicios que brindo.</p><br><br>
+                <div class="boton1">CONOCE MÁS</div>
+            </div><!--cierre de frase-->
+        </div><!--cierre de container-->
+    </header>    
 
+<!-----------------------------------------------------sobremi---------------------------------------------------->
+    <section id="sobremi">
+        <div class="container">
+            <div class="yo">
+                <h3>SOBRE MI</h3>
+                <hr>
+                <p>Soy egresada de Laboratoria salí con el t´´itulo de Frontend Developer Jr desarrollo páginas web en HTML/CSS/Javascript. Soy creativa, inteligente y alegre cosa que transmito en cada página web que desarrollo.</p> 
+            </div><!--cierre de yo-->
+        </div><!--cierre de container-->
+    </section>
+    
+<!-----------------------------------------------------servicios---------------------------------------------------->
+     <section id="servicios">
+        <div class="container">
+            <div class="iconos">
+                <h3>SERVICIOS</h3>
+                <hr>
+                <div class="col-md-3">
+                    <span class="icon-diamond"> </span>
+                    <h4>Desarrollo de plantillas</h4>
+                    <p>Desarrollo de plantillas a medida con HTML5/CSS3/JS</p> <br>
+                </div><!--cierre de col-md-3-->
+                <div class="col-md-3">
+                    <span class="glyphicon glyphicon-send"> </span> 
+                    <h4>Campañas de Mailing</h4>
+                    <p>Desarrollo de plantillas para campañas  por correo</p><br>
+                </div><!--cierre de col-md-3-->
+                <div class="col-md-3">
+                    <span class="icon-newspaper"> </span> 
+                    <h4>Full websites</h4>
+                    <p>Desarrollo websites completos y dinámicos</p><br>
+                </div><!--cierre de col-md-3-->
+                <div class="col-md-3">
+                    <span class="glyphicon glyphicon-heart"> </span> 
+                    <h4>Aplicaciones Android</h4>
+                    <p>Desarrollo aplicaciones Android listas para subir a la tienda</p><br>
+                </div><!--cierre de col-md-3-->
+            </div><!--cierre de iconos-->
+        </div><!--cierre de container-->
+    </section> 
+    
+<!-----------------------------------------------------proyectos---------------------------------------------------->
+    <section id="proyectos">
+        <div class="cuadro">
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/1.jpg" alt="">
+            </div><!--cierre de col-md-4-->
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/1.jpg" alt="">
+            </div><!--cierre de col-md-4-->
+            <div class="col-md-4">
+                <img class="img-responsive" src="img/1.jpg" alt="">
+            </div><!--cierre de col-md-4-->
+        </div><!--cierre de cuadro-->
+    </section>
+    
+<!-----------------------------------------------------contactame---------------------------------------------------->
+    <section class="contactame">
+        <div class="cuadro-final">
+            <h3>Contáctame</h3>
+        </div><!--cierre de cuadro-final-->
+    </section>
 </body>
 </html>
